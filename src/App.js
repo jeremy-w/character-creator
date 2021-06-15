@@ -8,8 +8,10 @@ function App() {
   return (
     <>
       <div className={styles.perspective} />
-      <CharacterEditor />
-      <Footer />
+      <div className={styles.isolated}>
+        <CharacterEditor />
+        <Footer />
+      </div>
     </>
   );
 }
